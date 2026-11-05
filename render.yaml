@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: diabpredict-pro
+    runtime: python
+    plan: free
+    region: oregon
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+    startCommand: >-
+      streamlit run app.py
+      --server.port $PORT
+      --server.address 0.0.0.0
+      --server.headless true
+      --browser.gatherUsageStats false
+    healthCheckPath: /_stcore/health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: TF_CPP_MIN_LOG_LEVEL
+        value: "3"
+      - key: APP_PASSWORD
+        sync: false

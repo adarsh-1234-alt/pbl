@@ -1,0 +1,102 @@
+{
+  "method": "KernelSHAP (model-agnostic)",
+  "generated_at": "2026-11-03T20:31:24",
+  "output_units": "predicted probability of diabetes",
+  "features": [
+    {
+      "feature": "HbA1c_level",
+      "display": "HbA1c level",
+      "mean_abs_shap": 0.12224397814249825,
+      "mean_shap": 0.000933934593696498,
+      "share": 0.35661313054371
+    },
+    {
+      "feature": "blood_glucose_level",
+      "display": "Blood glucose",
+      "mean_abs_shap": 0.0825919058482685,
+      "mean_shap": -0.004013170078177718,
+      "share": 0.2409391329509007
+    },
+    {
+      "feature": "age",
+      "display": "Age",
+      "mean_abs_shap": 0.05324193739721445,
+      "mean_shap": -0.014933829043935042,
+      "share": 0.15531868530407472
+    },
+    {
+      "feature": "bmi",
+      "display": "BMI",
+      "mean_abs_shap": 0.026283241161191708,
+      "mean_shap": -0.005106041682712277,
+      "share": 0.07667411559857733
+    },
+    {
+      "feature": "smoking_history_never",
+      "display": "Smoking: never",
+      "mean_abs_shap": 0.013412793896949415,
+      "mean_shap": 0.00669231985838698,
+      "share": 0.03912813124711148
+    },
+    {
+      "feature": "hypertension",
+      "display": "Hypertension",
+      "mean_abs_shap": 0.012092274451489965,
+      "mean_shap": -0.0057999841783517685,
+      "share": 0.03527587954077222
+    },
+    {
+      "feature": "gender_Male",
+      "display": "Gender: male",
+      "mean_abs_shap": 0.008569289179358303,
+      "mean_shap": -0.0007373272299166275,
+      "share": 0.024998540518888022
+    },
+    {
+      "feature": "smoking_history_current",
+      "display": "Smoking: current",
+      "mean_abs_shap": 0.007739161806353606,
+      "mean_shap": -0.0019535956304894716,
+      "share": 0.022576872591064636
+    },
+    {
+      "feature": "smoking_history_not current",
+      "display": "Smoking: not current",
+      "mean_abs_shap": 0.0056170751393024975,
+      "mean_shap": 0.0003812017283320799,
+      "share": 0.016386269330918656
+    },
+    {
+      "feature": "smoking_history_former",
+      "display": "Smoking: former",
+      "mean_abs_shap": 0.005033532368433074,
+      "mean_shap": -0.0011502499087388417,
+      "share": 0.014683944050868317
+    },
+    {
+      "feature": "heart_disease",
+      "display": "Heart disease",
+      "mean_abs_shap": 0.0031276838327789734,
+      "mean_shap": -6.143289901656133e-05,
+      "share": 0.009124155969941383
+    },
+    {
+      "feature": "smoking_history_ever",
+      "display": "Smoking: ever",
+      "mean_abs_shap": 0.002838705863894299,
+      "mean_shap": -0.0011126032457615196,
+      "share": 0.008281142353172477
+    },
+    {
+      "feature": "gender_Other",
+      "display": "Gender: other",
+      "mean_abs_shap": 0.0,
+      "mean_shap": 0.0,
+      "share": 0.0
+    }
+  ],
+  "n_background": 100,
+  "n_explained": 200,
+  "nsamples": 200,
+  "seconds": 305.4
+}

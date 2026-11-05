@@ -1,0 +1,13 @@
+# DiabPredict Pro — Streamlit Community Cloud / Render / local
+# Verified locally on Python 3.13 with the versions below (or newer).
+streamlit>=1.40
+tensorflow-cpu>=2.16
+numpy>=1.26
+scikit-learn>=1.4
+pandas>=2.2
+joblib>=1.3
+shap>=0.45
+matplotlib>=3.8
+plotly>=5.20
+reportlab>=4.0
+h5py>=3.10

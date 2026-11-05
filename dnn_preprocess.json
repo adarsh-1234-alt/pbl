@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "target": "diabetes",
+  "raw_features": [
+    "gender",
+    "age",
+    "hypertension",
+    "heart_disease",
+    "smoking_history",
+    "bmi",
+    "HbA1c_level",
+    "blood_glucose_level"
+  ],
+  "numeric": [
+    "age",
+    "bmi",
+    "HbA1c_level",
+    "blood_glucose_level"
+  ],
+  "binary": [
+    "hypertension",
+    "heart_disease"
+  ],
+  "categorical": [
+    "gender",
+    "smoking_history"
+  ],
+  "columns": [
+    "age",
+    "bmi",
+    "HbA1c_level",
+    "blood_glucose_level",
+    "hypertension",
+    "heart_disease",
+    "gender_Male",
+    "gender_Other",
+    "smoking_history_current",
+    "smoking_history_ever",
+    "smoking_history_former",
+    "smoking_history_never",
+    "smoking_history_not current"
+  ],
+  "display_names": {
+    "age": "Age",
+    "bmi": "BMI",
+    "HbA1c_level": "HbA1c level",
+    "blood_glucose_level": "Blood glucose",
+    "hypertension": "Hypertension",
+    "heart_disease": "Heart disease",
+    "gender_Male": "Gender: male",
+    "gender_Other": "Gender: other",
+    "smoking_history_current": "Smoking: current",
+    "smoking_history_ever": "Smoking: ever",
+    "smoking_history_former": "Smoking: former",
+    "smoking_history_never": "Smoking: never",
+    "smoking_history_not current": "Smoking: not current"
+  },
+  "median": {
+    "age": 43.0,
+    "bmi": 27.32,
+    "HbA1c_level": 5.8,
+    "blood_glucose_level": 140.0
+  },
+  "gender_levels": [
+    "Female",
+    "Male",
+    "Other"
+  ],
+  "smoking_levels": [
+    "No Info",
+    "current",
+    "ever",
+    "former",
+    "never",
+    "not current"
+  ],
+  "gender_reference": "Female",
+  "smoking_reference": "No Info"
+}

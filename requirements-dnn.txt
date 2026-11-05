@@ -1,0 +1,9 @@
+# Stage 1 — model + backend (DNN on the Kaggle diabetes dataset)
+tensorflow>=2.16
+scikit-learn>=1.4
+pandas>=2.2
+numpy>=1.26
+joblib>=1.3
+shap>=0.45
+matplotlib>=3.8
+h5py>=3.10
